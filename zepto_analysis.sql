@@ -15,7 +15,7 @@
 -- ==========================================================
 
 CREATE TABLE product(
-    product_id SERIAL PRIMARY KEY,
+    product_id SERIAL PRIMARY KEY, 
 
     category VARCHAR(100) NOT NULL,
     name VARCHAR(255) NOT NULL,
